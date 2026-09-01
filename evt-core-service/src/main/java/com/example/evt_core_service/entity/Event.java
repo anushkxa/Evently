@@ -39,7 +39,7 @@ public class Event extends BaseEntity{
         this.city=city;
         this.organizerMobile=organizerMobile;
         this.category=category;
-        this.status=status;
+        this.status=EventStatus.DRAFT;
     }
     public String getEventName() { return eventName; }
     public UUID getOrganizerId() { return organizerId; }
